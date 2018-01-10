@@ -35,6 +35,7 @@ public class FaceDet {
     @SuppressWarnings("unused")
     public FaceDet() {
         jniInit(mLandMarkPath);
+
     }
 
     public FaceDet(String landMarkPath) {
@@ -71,7 +72,6 @@ public class FaceDet {
 
     @Keep
     private synchronized native int jniInit(String landmarkModelPath);
-
     @Keep
     private synchronized native int jniDeInit();
 
@@ -80,4 +80,5 @@ public class FaceDet {
 
     @Keep
     private synchronized native VisionDetRet[] jniDetect(String path);
+
 }

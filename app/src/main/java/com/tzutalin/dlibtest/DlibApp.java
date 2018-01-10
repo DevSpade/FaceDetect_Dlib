@@ -24,7 +24,7 @@ import timber.log.Timber;
 /**
  * Created by tzutalin on 2017/2/23.
  */
-public class DlibDemoApp extends Application {
+public class DlibApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();

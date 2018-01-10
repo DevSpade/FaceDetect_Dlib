@@ -27,7 +27,7 @@ import static org.junit.Assert.assertThat;
  */
 @RunWith(AndroidJUnit4.class)
 @SmallTest
-public class FaceDetTest {
+public class FaceDetection {
 
     @Before
     public void setup() {
